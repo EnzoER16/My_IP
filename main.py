@@ -15,6 +15,6 @@ def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
-    page.add(ft.Text(f"IP: {get_ip()}"))
+    page.add(ft.Text(f"IP: {get_ip()}", size=30, weight=ft.FontWeight.BOLD))
 
 ft.app(target=main)
