@@ -12,6 +12,8 @@ def main(page: ft.Page):
     page.window.left = 560 # center x position for a 1920 value
     page.window.top = 240 # center y position for a 1080 value
 
+    page.window.icon = "assets/icon.png"
+
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
