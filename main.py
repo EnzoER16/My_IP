@@ -1,3 +1,4 @@
+from get_ip import get_ip
 import flet as ft
 
 def main(page: ft.Page):
@@ -14,6 +15,6 @@ def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
-    page.add(ft.Text(""))
+    page.add(ft.Text(f"IP: {get_ip()}"))
 
 ft.app(target=main)
