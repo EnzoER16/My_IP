@@ -1,4 +1,4 @@
-from get_ip import get_ip
+from src.get_ip import get_ip
 import flet as ft
 
 def main(page: ft.Page):
