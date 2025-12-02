@@ -2,4 +2,6 @@ __pycache__
 .venv
 storage
 build
+dist
+main.spec
 pyproject.toml
