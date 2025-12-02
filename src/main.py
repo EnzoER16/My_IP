@@ -13,7 +13,7 @@ def main(page: ft.Page):
     page.window.top = 240 # center y position for a 1080 value
 
     # window icon
-    page.window.icon = "assets/icon.ico"
+    page.window.icon = "src/assets/icon.ico"
 
     # window alignment
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
