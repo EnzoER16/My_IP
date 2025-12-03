@@ -1,0 +1,19 @@
+[project]
+name = "My IP"
+version = "1.0.0"
+description = "Simple tool to show IP address"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Enzo Rojas", email = "enzo.e.rojas@gmail.com" }
+]
+dependencies = [
+  "flet==0.28.3"
+]
+
+[tool.flet]
+company = "Enzo Rojas"
+copyright = "Copyright © 2025 Enzo Rojas"
+
+[tool.flet.app]
+path = "src"
