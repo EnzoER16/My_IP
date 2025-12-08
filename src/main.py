@@ -9,8 +9,7 @@ def main(page: ft.Page):
     page.window.height = 275
     page.window.resizable = False
     page.window.maximizable = False
-    page.window.left = 560 # center x position for a 1920 value
-    page.window.top = 240 # center y position for a 1080 value
+    page.window.center()
 
     # window icon
     page.window.icon = "src/assets/icon.ico"
